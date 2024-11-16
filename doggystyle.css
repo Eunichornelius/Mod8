@@ -4,7 +4,7 @@ body {
   grid-template-areas:
     "header header header"
     "nav section aside"
-    "footer footer footer";
+    "nav footer footer";
   grid-template-rows: 280px 1fr 50px;
   grid-template-columns: 10% 1fr 35%;
   grid-gap: 5px;
@@ -58,6 +58,16 @@ h4 {
   content: "";
   display: table;
   clear: both;
+}
+/*this is where the styling for my flexboxes lives*/
+article {
+  padding: 10px;
+  margin: 10px;
+  flex: 200px;
+}
+aside {
+  display: flex;
+  flex-wrap: wrap;
 }
 .responsive {
   max-width: 100%;

@@ -62,7 +62,18 @@ section {
 aside {
   background-image: linear-gradient(to bottom right, black, rgb(95, 90, 90));
   grid-area: aside;
-}/*The columns and rows are depreciated 3/4 pages
+}
+/*this is where the styling for my flexboxes lives*/
+article {
+  padding: 10px;
+  margin: 10px;
+  flex: 200px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*The columns and rows are depreciated 3/4 pages
 .column {
   background-image: linear-gradient(to bottom right, black, white);
   float: left;
