@@ -1,4 +1,5 @@
 body {
+  color: white;
   font-family: segoe-ui_normal, Segoe UI, Segoe, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
 /*this is setting the grid style for the page*/
   display: grid;
