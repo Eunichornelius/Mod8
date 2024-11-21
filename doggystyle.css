@@ -1,6 +1,14 @@
+@import "font.css";
+@font-face {
+  font-family: "Goldman-Regular";
+  font-style: normal;
+  src: url(Goldman-Regular.ttf);
+  font-weight: 400;
+  font-display: swap;
+}
 body {
+  font-family: "Goldman-Regular";
   color: white;
-  font-family: segoe-ui_normal, Segoe UI, Segoe, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
   display: grid;
   grid-template-areas:
     "header header header"
@@ -14,6 +22,7 @@ body {
   background-color: black;
 }
 header {
+  font-family: "Goldman-Regular";
   background: url(mittens.png)no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,12 +40,14 @@ header {
   border-width: 12px;
 }
 nav {
+  font-family: "Goldman-Regular";
   background: rgba(71, 71, 71, 0.582);
   grid-area: nav;
   text-align:center;
   text-shadow: black 2px 0 6px;
 }
 #nav_menu ul {
+  font-family: "Goldman-Regular";
   list-style-type: none;
   padding: 1em 0;
   /*padding aabove and below li elements */
@@ -52,6 +63,7 @@ h4 {
   text-shadow: yellow 2px 0 11px;
 }
 .column1{
+  font-family: "Goldman-Regular";
   font-size: 120%;
 }
 /* what floats in water? */
@@ -62,11 +74,13 @@ h4 {
 }
 /*this is where the styling for my flexboxes lives*/
 article {
+  font-family: "Goldman-Regular";
   padding: 10px;
   margin: 10px;
   flex: 200px;
 }
 aside {
+  font-family: "Goldman-Regular";
   display: flex;
   flex-wrap: wrap;
 }

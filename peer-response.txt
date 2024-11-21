@@ -1,0 +1,13 @@
+1.) I find it wonderful that you used images for the navigation menu. However, I got a little lost at first (not shocking) 
+adding some text to indicate that the images are clickable would be beneficial.
+    
+    I made this adjustment across all of my pages. I even noted it in my code.
+
+2.) CSS adding in responsive for the column, .column1 to adapt based on screen size 
+(improve readability and accessibility across devices) 
+
+    Because I switched to using the grid style layout and flexboxes, this was fixed.
+
+3.) Move h1 styles out of body { } and place them in a separate h1 { } block to ensure proper CSS structure.
+
+    I completely broke out of using the h1 style and moved the header out of body like Jessica recommended.
